@@ -1,2 +1,5 @@
-pip install seaborn
+Pip install pandas.
+Pip install seaborn
 pip install statsmodels
+pip install patsy
+
