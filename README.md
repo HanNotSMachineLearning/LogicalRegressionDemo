@@ -1,20 +1,36 @@
 # LogicalRegressionDemo
 
-[Demo document](https://drive.google.com/open?id=15L6anETYkcw0qZ9pfXhsPRNc8ySpz7b_tjRRba50SxE)
+## Vereisten:
+De demo is beschikbaar in 2 versies. [1e versie](https://github.com/HanNotSMachineLearning/LogisticRegressionDemo/blob/master/LogisticRegressionDemo.py) vereist python en pip. [2e versie](https://github.com/HanNotSMachineLearning/LogisticRegressionDemo/blob/master/logistic_regression.ipynb) vereist jupyter notebook, pip en python. Beide demo versies zijn gemaakt en getest op een 64-bits Windows systeem.
 
-Voor de demo wordt er gebruik gemaakt van:
 
-* Anaconda navigator 5.1 (https://www.anaconda.com/download/)
-* Python versie 3.6 64bit
-* Jupiter Notebook 5.4.0 (Zit in Anaconda navigator)
+* pip 10.0.1
+* Python 3.6.5
+* Jupiter notebook 5.5.0
 
-bank-names.txt:
-relevante informatie over de banking.csv
+## Installatie
+> versie 1 is te runnen door naar het hoofd bestandsmap (LogisticRegressionDemo) de commando **python LogisticRegressionDemo.py** uit te voeren.
+> versie 2 is te runnen door naar het hoofd bestandsmap (LogisticRegressionDemo) de commando **jupyter notebook logistic_regression.ipynb** uit voeren.
+
+Om de programmacode te draaien heb je de volgende Python-modulen nodig:
+* pandas
+* seaborn
+* statsmodels
+* patsy
+
+Door het commando **pip install -r requirements.txt --user** uit te voeren in een opdrachtvenster worden alle modules in één keer gedownload.
+
+## Data
+bank-names.txt: relevante informatie over de banking.csv
 
 banking.csv: dataset die gebruikt wordt voor de demo.
 
-* [Deze is afkomstig van (raw bestand opslaan als en in map zetten voor gebruik)](https://raw.githubusercontent.com/madmashup/targeted-marketing-predictive-engine/master/banking.csv)
+* [Deze is afkomstig van (raw bestand opslaan als en in hoofdmap te zetten voor gebruik)](https://raw.githubusercontent.com/madmashup/targeted-marketing-predictive-engine/master/banking.csv)
 * [Dataset is ook te vinden in de UCI Machine Learning repository](https://archive.ics.uci.edu/ml/datasets/bank+marketing)
 
-logistic_regression.ipynb:
-De demo uitvoer bestand
+## Demo code
+> [Versie 1](https://github.com/HanNotSMachineLearning/LogisticRegressionDemo/blob/master/LogisticRegressionDemo.py): De demo is gescreven i python en is een eenvoudige demo zonder veel documentatie.
+> [versie 2](https://github.com/HanNotSMachineLearning/LogisticRegressionDemo/blob/master/logistic_regression.ipynb): De demo is gemaakt met behulp van jupyter notebook en python. De demo bevat volledige documentatie en details zoals grafieken. 
+
+## Resultaat van de applicatie
+Het resultaat van de applicatie is dat de structuur van logistic regression algoritme wordt getoond. Hierbij wordt er voorspeld of een klant een termijn deposito zal overschijven of niet aan de hand van bestaande data.
