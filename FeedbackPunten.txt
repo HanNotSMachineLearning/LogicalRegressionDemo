@@ -1,0 +1,8 @@
+Applicatie:
+- de app maakt gebruik van een module die bijna deprecated is, kan je dit snel oplossen?
+
+Documentatie:
+- Ik zou de vereiste modules versie afhankelijk maken, wat heb ik nodig voor demo1 en wat voor demo2
+- Er mist een beschrijving hoe ik de 2 demo's op moet starten, een commando of zoiets. Deel dit dan ook weer op in demo1 den demo2 zodat duidelijk is welke je waarvoor moet gebruiken
+- Het bestand is geen RAW bestand maar een CSV, dat raw geeft aan dat GitHub de rauwe code weergeeft
+- Maak het wat duidelijk wat de bank-names.txt is en waarvoor het dient. Dat is een beetje onduidelijk
