@@ -29,9 +29,9 @@ banking.csv: dataset die gebruikt wordt voor de demo.
 * [Dataset is ook te vinden in de UCI Machine Learning repository](https://archive.ics.uci.edu/ml/datasets/bank+marketing)
 
 ## Demo code
-> [Versie 1](https://github.com/HanNotSMachineLearning/LogisticRegressionDemo/blob/master/LogisticRegressionDemo.py): De demo is gescreven is python en is een eenvoudige demo zonder veel documentatie.
+> [Versie 1](https://github.com/HanNotSMachineLearning/LogisticRegressionDemo/blob/master/LogisticRegressionDemo.py): De demo(LogisticRegressionDemo.py) is gescreven in python en is een eenvoudige demo zonder veel documentatie.
 
-> [versie 2](https://github.com/HanNotSMachineLearning/LogisticRegressionDemo/blob/master/logistic_regression.ipynb): De demo is gemaakt met behulp van jupyter notebook en python. De demo bevat volledige documentatie en details zoals grafieken. 
+> [versie 2](https://github.com/HanNotSMachineLearning/LogisticRegressionDemo/blob/master/logistic_regression.ipynb): De demo(logistic_regression.ipynb) is gemaakt met behulp van jupyter notebook en python. De demo bevat de volledige documentatie en details zoals grafieken. 
 
 ## Resultaat van de applicatie
 Het resultaat van de applicatie is dat de structuur van logistic regression algoritme wordt getoond. Hierbij wordt er voorspeld of een klant een termijn deposito zal overschijven of niet aan de hand van bestaande data.
