@@ -18,9 +18,7 @@ De demo is beschikbaar in 2 versies. Beide demo versies zijn gemaakt en getest o
 ## Installatie
 
 > versie 1 is te runnen door naar het hoofd bestandsmap (LogisticRegressionDemo) de commando **python LogisticRegressionDemo.py** uit te voeren.
-> versie 2 is te runnen door naar het hoofd bestandsmap (LogisticRegressionDemo) de commando **jupyter notebook logistic_regression.ipynb** uit voeren. Daarna kan de demo gerunt worden door te .... selecteren.
-
-Running the demo: ![Run demo](https://github.com/HanNotSMachineLearning/LogisticRegressionDemo/blob/master/Re_Run.PNG "Re-Run")
+> versie 2 is te runnen door naar het hoofd bestandsmap (LogisticRegressionDemo) de commando **jupyter notebook logistic_regression.ipynb** uit voeren. Daarna kan de demo gerunt worden door te ![Run demo](https://github.com/HanNotSMachineLearning/LogisticRegressionDemo/blob/master/Re_Run.PNG "Re-Run") selecteren.
 
 Om de programmacode te draaien heb je de volgende Python-modulen nodig:
 
