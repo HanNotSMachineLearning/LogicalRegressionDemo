@@ -1,65 +1,65 @@
 Sander:
 Applicatie:
-- de app maakt gebruik van een module die bijna deprecated is, kan je dit snel oplossen?
+- de app maakt gebruik van een module die bijna deprecated is, kan je dit snel oplossen? - NOT_DONE
 
 Documentatie:
-- Ik zou de vereiste modules versie afhankelijk maken, wat heb ik nodig voor demo1 en wat voor demo2
-- Er mist een beschrijving hoe ik de 2 demo's op moet starten, een commando of zoiets. Deel dit dan ook weer op in demo1 den demo2 zodat duidelijk is welke je waarvoor moet gebruiken
-- Het bestand is geen RAW bestand maar een CSV, dat raw geeft aan dat GitHub de rauwe code weergeeft
-- Maak het wat duidelijk wat de bank-names.txt is en waarvoor het dient. Dat is een beetje onduidelijk
+- Ik zou de vereiste modules versie afhankelijk maken, wat heb ik nodig voor demo1 en wat voor demo2 - Done
+- Er mist een beschrijving hoe ik de 2 demo's op moet starten, een commando of zoiets. Deel dit dan ook weer op in demo1 den demo2 zodat duidelijk is welke je waarvoor moet gebruiken - Done
+- Het bestand is geen RAW bestand maar een CSV, dat raw geeft aan dat GitHub de rauwe code weergeeft - Done
+- Maak het wat duidelijk wat de bank-names.txt is en waarvoor het dient. Dat is een beetje onduidelijk - Done
 
 Robin:
 Documentatie README.md (spelling / grammatica):
-- Hoofdlettergebruik onder het kopje Vereisten en Demo code ('python', 'jupyter notebook')
-- Dubbele punten : verwijderen bij het kopje Vereisten
-- 'Jupiter notebook' moet Jupyter Notebook zijn onder vereisten (onder het kopje Vereisten)
-- 'de commando' moet 'het commando' zijn onder kopje Installatie (staat er 2 keer)
-- 'gescreven' moet 'geschreven' zijn onder kopje Demo code
-- Onder het kopje Data staat 'Deze is afkomstig van', maar niet waarvan. GitHub wil je zeggen waarschijnlijk
-- Omring pip install -r requirements.txt --user met ` ipv **
+- Hoofdlettergebruik onder het kopje Vereisten en Demo code ('python', 'jupyter notebook') - Done
+- Dubbele punten : verwijderen bij het kopje Vereisten - Done 
+- 'Jupiter notebook' moet Jupyter Notebook zijn onder vereisten (onder het kopje Vereisten) - Done
+- 'de commando' moet 'het commando' zijn onder kopje Installatie (staat er 2 keer) - Done
+- 'gescreven' moet 'geschreven' zijn onder kopje Demo code - Done
+- Onder het kopje Data staat 'Deze is afkomstig van', maar niet waarvan. GitHub wil je zeggen waarschijnlijk - Done
+- Omring pip install -r requirements.txt --user met ` ipv ** - Done 
 
 Documentatie README.md (inhoud):
-- Als je de Python-applicatie draait zie je een grafiek van de 'Receiver operating characteristic', kan je uitleggen wat dat inhoud? Wat betekent het rode diagonale lijntje en wat betekent het blauwe lijntje?
+- Als je de Python-applicatie draait zie je een grafiek van de 'Receiver operating characteristic', kan je uitleggen wat dat inhoud? Wat betekent het rode diagonale lijntje en wat betekent het blauwe lijntje? - Done
 
 Documentatie Jupyter Notebook:
 * Library imports:
-  - sklearn: 'effectief' moet 'effectieve' zijn.
+  - sklearn: 'effectief' moet 'effectieve' zijn. - Done
   - LogisticRegression: 'die je gebruik van' moet 'die afkomstig is van'.
-  - statsmodels.api: 'Voor elke schatter' moet wat anders zijn.
+  - statsmodels.api: 'Voor elke schatter' moet wat anders zijn. - Done
 
 * Head functie:
-  - 'de DataFrame' moet 'het DataFrame' zijn
-  - 'aantal rows' moet 'het aantal rows' zijn
-  - 'defineren' moet 'definiëren' zijn
+  - 'de DataFrame' moet 'het DataFrame' zijn - Done
+  - 'aantal rows' moet 'het aantal rows' zijn - Done
+  - 'defineren' moet 'definiëren' zijn - Done
 
 * Categoriseren/grouperen:
-  - 'vele categorieën' moet 'veel categorieën' zijn
+  - 'vele categorieën' moet 'veel categorieën' zijn - Done
 
 * Unique functie:
-  - 'uniqe' moet 'unique' zijn
-  - Er staat twee keer wordt achter elkaar.
+  - 'uniqe' moet 'unique' zijn - Done
+  - Er staat twee keer wordt achter elkaar. - Done
 
 * Value_counts functie:
-  - 'de dataframe' moet 'het DataFrame' zijn.
+  - 'de dataframe' moet 'het DataFrame' zijn. - Done
 
 * sns.countplot en plt.savefig:
-  - 'gebasseerd' moet 'gebaseerd' zijn
-  - 'png bestand' moet 'png-bestand' zijn
-  - 'Onderstaande' moet 'onderstaande' zijn
+  - 'gebasseerd' moet 'gebaseerd' zijn - Done
+  - 'png bestand' moet 'png-bestand' zijn - Done
+  - 'Onderstaande' moet 'onderstaande' zijn - Done 
 
 * Visualisatie:
-  - 'visualitatie' moet 'visualisatie' zijn.
-  - Comma moet weg in de eerste zin.
+  - 'visualitatie' moet 'visualisatie' zijn. - Done
+  - Comma moet weg in de eerste zin. - Weet het niet zeker
 
 * pd.get_dummy functie:
-  - 'funtie' moet 'functie' zijn.
+  - 'funtie' moet 'functie' zijn. - Done
 
 * Logistic Regression Model Fitting
-  - 'het meest accurate voorspelling' moet 'de meest accurate voorspelling' zijn.
+  - 'het meest accurate voorspelling' moet 'de meest accurate voorspelling' zijn. - Done
 
 * Compute precision, recall, F-measure and support
-  - Er staat vaak 'resutaat' ipv 'resultaat'
-  - 'de resultaat' moet 'het resultaat' zijn.
+  - Er staat vaak 'resutaat' ipv 'resultaat' - Done
+  - 'de resultaat' moet 'het resultaat' zijn. - Done
 
 * ROC Curve
-    - 'gebasseerd' moet 'gebaseerd zijn' 
+    - 'gebasseerd' moet 'gebaseerd zijn' - Done

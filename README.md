@@ -17,9 +17,6 @@ De demo is beschikbaar in 2 versies. Beide demo versies zijn gemaakt en getest o
 
 ## Installatie
 
-> versie 1 is te runnen door naar het hoofd bestandsmap (LogisticRegressionDemo) het commando **python LogisticRegressionDemo.py** uit te voeren.
-> versie 2 is te runnen door naar het hoofd bestandsmap (LogisticRegressionDemo) het commando **jupyter notebook logistic_regression.ipynb** uit voeren. Daarna kan de demo gerunt worden door te ![Run demo](https://github.com/HanNotSMachineLearning/LogisticRegressionDemo/blob/master/Re_Run.PNG "Re-Run") selecteren.
-
 Om de programmacode te draaien zijn de volgende Python-modulen nodig:
 
 * pandas
@@ -29,13 +26,19 @@ Om de programmacode te draaien zijn de volgende Python-modulen nodig:
 
 Door het commando `pip install -r requirements.txt --user` uit te voeren in een opdrachtvenster worden alle modules in één keer gedownload.
 
+## Runnen van de applicatie
+
+> Demo versie 1 is te runnen door naar het hoofd bestandsmap (LogisticRegressionDemo) het commando **python LogisticRegressionDemo.py** uit te voeren in de terminal.
+
+> Demo versie 2 is te runnen door naar het hoofd bestandsmap (LogisticRegressionDemo) het commando **jupyter notebook logistic_regression.ipynb** uit voeren in de terminal. Daarna kan de demo worden gerunt door ![Run demo](https://github.com/HanNotSMachineLearning/LogisticRegressionDemo/blob/master/Re_Run.PNG "Re-Run") te selecteren.
+
 ## Data
 
-bank-names.txt: relevante informatie over de banking.csv
+[bank-names.txt](https://github.com/HanNotSMachineLearning/LogisticRegressionDemo/blob/master/bank-names.txt): bevat relevante informatie over de banking.csv. Hierin staan de makers van de dataset en de volledige beschrijving van de dataset (attributen, aantal records, etc.).
 
 banking.csv: dataset die gebruikt wordt voor de demo.
 
-* [Deze is afkomstig van github (csv bestand opslaan als en in hoofdmap te zetten voor gebruik)](https://raw.githubusercontent.com/madmashup/targeted-marketing-predictive-engine/master/banking.csv)
+* [Dataset is afkomstig van github (csv bestand)](https://raw.githubusercontent.com/madmashup/targeted-marketing-predictive-engine/master/banking.csv)
 * [Dataset is ook te vinden in de UCI Machine Learning repository](https://archive.ics.uci.edu/ml/datasets/bank+marketing)
 
 ## Demo code
