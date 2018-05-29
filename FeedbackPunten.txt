@@ -1,6 +1,6 @@
 Sander:
 Applicatie:
-- de app maakt gebruik van een module die bijna deprecated is, kan je dit snel oplossen? - NOT_DONE
+- de app maakt gebruik van een module die bijna deprecated is, kan je dit snel oplossen? - Done
 
 Documentatie:
 - Ik zou de vereiste modules versie afhankelijk maken, wat heb ik nodig voor demo1 en wat voor demo2 - Done
